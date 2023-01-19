@@ -30,7 +30,7 @@ const run = async () => {
 
     } else {
             // get session token from backend
-        const response = await fetch('https://stp-coral.vercel.app/8000');
+        const response = await fetch('https://stp-coral.vercel.app');
         const data = await response.json();
 
         if(data.error){
