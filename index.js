@@ -58,7 +58,7 @@ const run = async () => {
             messageEl.innerText = msg;
 
             // Send the message to the ESP32
-            fetch("https://stp-final.vercel.app/send-to-esp32", {
+            fetch("https://stp-copy.vercel.app/send-to-esp32", {
                 method: "POST",
                 headers: {
                 "Content-Type": "application/json"
